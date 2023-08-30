@@ -1,0 +1,145 @@
+/* Inicio Selector Universal */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Fin Selector Universal */
+
+/* Inicio variables reutilizables */
+
+:root {
+    /* Inicio colores utilizados */
+    --color-principal: #0e34a0;
+    --color-secundario: #affc41;
+    --color-secundario-transp: rgba(174, 252, 65, 0.8);
+    --color-atras: #7b7263;
+    --color-atras2: #8d91c7;
+    --color-texto: #040404;
+    --color-pie: #ffffff;
+    /* Fin colores utilizados */
+} 
+
+/* Fin variables reutilizables */
+
+/* Inicio estilo scroll */
+
+::-webkit-scrollbar{
+    background-color: var(--color-atras);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--color-secundario-transp);
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px var(--color-texto);
+}
+
+/* Fin estilo scroll */
+
+/* Inicio head */
+
+.retamal{
+    color: var(--color-secundario);
+}
+
+/* Fin head */
+
+/* Inicio index */
+
+.card{
+    margin: 20px;
+}
+
+/* Fin index */
+
+/* Inicio modificador de imagenes */
+
+.imagen-m{
+    padding: 5px;
+    margin: 10px;
+}
+
+/* Fin modificador de imagenes */
+
+/* inicio pagina contacto */
+
+    /* inicio estilos formulario */
+
+form{
+    width: 100%;
+    height: 100%;
+    background-image: url(./Images/Contacto/soldador.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 30px;
+}
+
+form h2{ 
+    text-align:center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: var(--color-secundario);
+}
+
+form li{
+    list-style: none;
+}
+
+form input{
+    width:100%;
+    font-size: 25px;
+    background-color: var(--color-secundario-transp);
+    margin: 5px;
+    border: none;
+    border-bottom: 2px solid var(--color-principal);
+}
+
+form input::placeholder{
+    color: var(--color-principal)
+}
+
+form textarea{
+    width: 100%;
+    font-size: 25px;
+    background-color: var(--color-secundario-transp);
+    margin: 5px;
+    border: none;
+    border-bottom: 2px solid var(--color-principal);
+}
+
+form textarea::placeholder{
+    color: var(--color-principal)
+}
+
+#boton_form{
+    background-color: var(--color-principal);
+    font-size: 25px;
+    color: var(--color-secundario);
+    margin: 5px;
+}
+
+    /* fin estilos formulario */
+
+/* fin pagina contacto */
+
+/* Inicio footer */
+
+.footer{
+    background-color: var(--color-atras);
+    color: var(--color-pie);
+    text-align: center;
+    padding: 20px;
+}
+.footer-iconos{
+    margin-top: 10px;
+}
+.footer-iconos a{
+    color: var(--color-pie);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Fin footer */
