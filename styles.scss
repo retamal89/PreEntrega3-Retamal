@@ -65,16 +65,16 @@ form{
         text-align:center;
         font-size: 40px;
         text-transform: uppercase;
-        color: var(--color-secundario);
+        color: $colorSecundario;
         li{
             list-style: none;
             input{
                 width:100%;
                 font-size: 25px;
-                background-color: var(--color-secundario-transp);
+                background-color: $colorSecundarioTransp;
                 margin: 5px;
                 border: none;
-                border-bottom: 2px solid var(--color-principal);
+                border-bottom: 2px solid $colorPrincipal;
             }
 
             input::placeholder{
@@ -83,13 +83,13 @@ form{
             textarea{
             width: 100%;
             font-size: 25px;
-            background-color: var(--color-secundario-transp);
+            background-color: $colorSecundarioTransp;
             margin: 5px;
             border: none;
-            border-bottom: 2px solid var(--color-principal);
+            border-bottom: 2px solid $colorPrincipal;
             }
             textarea::placeholder{
-            color: var(--color-principal)
+            color: $colorPrincipal;
             }
         }
     }
