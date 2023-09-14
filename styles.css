@@ -62,6 +62,9 @@ form h2 li input {
   border: none;
   border-bottom: 2px solid #0e34a0;
 }
+form h2 li input::-moz-placeholder {
+  color: #0e34a0;
+}
 form h2 li input::placeholder {
   color: #0e34a0;
 }
@@ -72,6 +75,9 @@ form h2 li textarea {
   margin: 5px;
   border: none;
   border-bottom: 2px solid #0e34a0;
+}
+form h2 li textarea::-moz-placeholder {
+  color: #0e34a0;
 }
 form h2 li textarea::placeholder {
   color: #0e34a0;
@@ -102,6 +108,4 @@ form h2 li textarea::placeholder {
   margin: 0 10px;
 }
 
-/* Fin footer */
-
-/*# sourceMappingURL=styles.css.map */
+/* Fin footer *//*# sourceMappingURL=styles.css.map */
